@@ -17,6 +17,7 @@ makedepends="
     libjpeg-turbo-devel
     libjxl-devel
     libspng
+    librsvg-devel
     libwebp-devel
     pixman-devel
 "
