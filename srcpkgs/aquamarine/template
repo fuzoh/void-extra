@@ -1,6 +1,6 @@
 # Template file for 'aquamarine'
 pkgname=aquamarine
-version=0.9.5
+version=0.10.0
 revision=2
 build_style=cmake
 configure_args="--no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release \
@@ -14,5 +14,5 @@ license="LGPL-3.0-only"
 homepage="https://hyprland.org/hyprlang/index.html"
 changelog="https://github.com/hyprwm/aquamarine/releases"
 distfiles="https://github.com/hyprwm/aquamarine/archive/refs/tags/v${version}.tar.gz"
-checksum=657e4752542872549a556d9facb8a525276b4edd5ca197818835904768aaad40
+checksum=0ec80c86dd94d7f2836aac9ed415b9170109bd77048de791d837ee729f1ad76a
 make_check=no # cant run in sandbox
